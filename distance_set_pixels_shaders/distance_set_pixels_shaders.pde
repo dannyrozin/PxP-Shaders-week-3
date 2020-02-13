@@ -2,7 +2,7 @@
 // Daniel Rozin
 // use fragment shader to color pixels by distance
 
-PShader myFragShader;                                   // variable to hold shader
+PShader myFragShader;                                   //  variable to hold shader
 
 void setup() {
   size(1000, 700, P2D);                                  // must be P2D or P3D for shaders
