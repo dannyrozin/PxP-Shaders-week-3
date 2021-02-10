@@ -17,5 +17,5 @@ void main() {
 
 	float dist = sqrt((vertTexCoord.x-paramx)*(vertTexCoord.x-paramx)+(vertTexCoord.y-paramy)*(vertTexCoord.y-paramy));
 
-	gl_FragColor = vec4(dist,dist,1, 1);                      // set the output color its RGBA 0-1 not 0 -255
+	gl_FragColor = vec4(dist,dist,1, 0.01);                      // set the output color its RGBA 0-1 not 0 -255
 }

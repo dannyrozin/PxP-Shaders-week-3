@@ -1,6 +1,6 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
-// use ragment shader to color pixels by sinew wave
+// use fragment shader to color pixels by sine wave
 
 PShader myFragShader;                  // variable to hold shader
 float counter , dir = 0.001;            
